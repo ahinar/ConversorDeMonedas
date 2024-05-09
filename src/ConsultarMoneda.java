@@ -21,7 +21,7 @@ public class ConsultarMoneda {
             return new Gson().fromJson(response.body(), Monedas.class);
         }
         catch (Exception e) {
-            throw new RuntimeException("No encontre la Película");
+            throw new RuntimeException("No encontre la Moneda");
         }
     }
 
